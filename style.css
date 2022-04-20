@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Calculator";
+    src: url("./assets/font/Calculator.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    outline: none;
+    font-family: sans-serif;
+    background-color: #ecf0f3;
+    background-size: cover;
+}
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3D3D3;
+}
+
+.calc {
+    box-shadow: 6px 6px 13px #FFF,
+                6px 6px 12px rgba(0, 0, 0,  .16);
+    border-radius: 28px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(4, 66px);
+    width: 300px;
+}
+
+input {
+    grid-column: span 4;
+    height: 68px;
+    width: 273px;
+    box-shadow: inset -6px -6px 13px #FFF,
+                inset 6px 6px 12px rgba(0, 0, 0,  .16);
+    background-color: #FFF;
+    border: none;
+    border-radius: 32px;
+    color: #0d0d0d;
+    text-align: end;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Calculator";
+}
+button {
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, .16);
+    background-color: #FFF;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.equals {
+    width: 120px;
+    border-radius: 42px;
+}

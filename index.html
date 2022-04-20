@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+            <input type="text" id="sumInput" placeholder="0">
+            <button onclick="clear()">C</button>
+            <button onclick="del()">DEL</button>
+            <button onclick="compute('%')">%</button>
+            <button onclick="compute('/')">/</button>
+            <button onclick="compute(7)">7</button>
+            <button onclick="compute(8)">8</button>
+            <button onclick="compute(9)">9</button>
+            <button onclick="compute('*')">x</button>
+            <button onclick="compute(4)">4</button>
+            <button onclick="compute(5)">5</button>
+            <button onclick="compute(6)">6</button>
+            <button onclick="compute('-')">-</button>
+            <button onclick="compute(1)">1</button>
+            <button onclick="compute(2)">2</button>
+            <button onclick="compute(3)">3</button>
+            <button onclick="compute('+')">+</button>
+            <button onclick="compute('.')">.</button>
+            <button onclick="compute(0)">0</button>
+            <button class="equals" onclick="Result()">=</button>
+        </div>
+    </div>
+    
+<script src="./app.js"></script>
+</body>
+</html>
