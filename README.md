@@ -7,3 +7,9 @@ This  is  a  simple  calculator, create  with  HTML, CSS & JavaScript  that  all
 ## Gitpages:
 
 https://souleimane-z.github.io/simplest_calculator_SZ/
+
+
+
+## Me
+Souleimane Zeggai - 2022
+ [LinkedIn](https://www.linkedin.com/in/souleimane-zeggai)
